@@ -1,0 +1,25 @@
+# Ignore all products of compilation
+*~
+
+# Thesis
+*.aux
+*.pdf
+*.blg
+*.log
+*.toc
+*.lof
+*.lot
+*.lol
+*.loa
+*.dlog
+*.bbl
+*.blg
+*.out
+*.tpt
+*.fdb_latexmk
+
+# Presentation
+*.toc
+*.nav
+*.snm
+*.vrb
