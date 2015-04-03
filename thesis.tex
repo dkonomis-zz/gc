@@ -27,8 +27,10 @@
 
 \usepackage{caption}
 \usepackage{subcaption}
+\DeclareCaptionSubType*{algorithm}
 %\captionsetup[algorithm]{font={small}, name={Algorithmmm}}
 \captionsetup[figure]{labelfont=bf}
+\captionsetup[table]{labelfont=bf}
 
 %\newenvironment{greekalgorithm}[H]
 \floatname{algorithm}{Αλγόριθμος}
@@ -134,7 +136,8 @@
 
 \renewcommand{\listfigurename}{Σχήματα}
 \listoffigures
-%\listoftables
+\renewcommand{\listtablename}{Πίνακες}
+\listoftables
 \renewcommand{\listalgorithmname}{Αλγόριθμοι}
 \renewcommand{\partname}{Μέρος}
 \renewcommand{\chaptername}{Κεφάλαιο}
