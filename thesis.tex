@@ -14,13 +14,13 @@
 \usepackage{array}
 \usepackage{mdwlist}
 \usepackage{graphicx}
-\usepackage{xunicode}
-\usepackage{xltxtra}
 \usepackage{polyglossia}
-\usepackage{microtype}
 \setmainlanguage{english}
 \setotherlanguage{greek}
 \newfontfamily\greekfont[Script=Greek]{CMU Serif}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{microtype}
 
 \usepackage[chapter]{algorithm}
 \usepackage[noend]{algpseudocode}
@@ -45,6 +45,16 @@
 \usepackage{xcolor}
 \definecolor{darkgreen}{cmyk}{0.7, 0, 1, 0.5}
 
+\usepackage{rotating}
+\usepackage[format=hang,textformat=simple]{caption}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+
+\setromanfont[Mapping=tex-text]{CMU Serif}
+\setsansfont[Mapping=tex-text]{CMU Sans Serif}
+\setmonofont[Mapping=tex-text]{CMU Typewriter Text}
+\setmainfont[Mapping=tex-text]{CMU Serif}
+
 \usepackage{url}
 \usepackage{hyperref}
 \hypersetup{%
@@ -61,16 +71,6 @@
     pdfsubject={},
     pdfkeywords={}
 }
-
-\usepackage{rotating}
-\usepackage[format=hang,textformat=simple]{caption}
-\usepackage{wrapfig}
-\usepackage{enumitem}
-
-\setromanfont[Mapping=tex-text]{CMU Serif}
-\setsansfont[Mapping=tex-text]{CMU Sans Serif}
-\setmonofont[Mapping=tex-text]{CMU Typewriter Text}
-\setmainfont[Mapping=tex-text]{CMU Serif}
 
 % CUSTOM COMMANDS ==============================================================
 \newcommand{\flink}[1]{\footnote{\url{#1}}}
